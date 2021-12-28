@@ -1,0 +1,11 @@
+.form-area {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+body {
+    background: url(../img/bg.png) 100% center;
+    background-size: cover;
+}

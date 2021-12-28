@@ -1,0 +1,100 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.header {
+    display: inline-block;
+    margin:10px 0 10px  25px;
+}
+.header .comment span {
+
+    background-color: #FFEFEF;
+    height: 30px;
+    line-height: 30px;
+    border: #F7ACBC 1px solid;
+    float: right;
+    vertical-align: middle;
+    padding: 0 1em  0 1em;
+}
+.header .comment {
+    display: inline-block;
+}
+.container-back {
+    width: 100%;
+    height: 700px;
+    background: url("https://s17.mogucdn.com/p2/170105/upload_541i9di2b3icf9j13f24e0bg7b1i6_1920x600.png") center  center no-repeat ;
+    background-size: cover;
+}
+
+.content-area {
+    width:100%;
+    height: 750px;
+    background:url("../img/background.png") ;
+    position: relative;
+}
+.regist-area {
+    width: 500px;
+    height: 500px;
+    margin-left: 1187px;
+    background-color: #FFEDEB;
+    margin-top: 100px;
+    position: absolute;
+    border-radius: 20px;   /*圆角边框*/
+    position: relative;
+    text-align: center;
+}
+.regist-area .userName  input {
+    margin:40px 0  0 0;
+    height: 54px;
+    width: 385px;
+    border-radius: 25px;   /*圆角边框*/
+    border: #BBBBCA 1px solid ;
+    font-size: 20px;
+    font-family: auto ;
+    outline: none;
+}
+.regist-area .pwd  input {
+    margin:20px 0  0 0;
+    height: 54px;
+    width: 385px;
+    border-radius: 25px;   /*圆角边框*/
+    border: #BBBBCA 1px solid ;
+    font-size: 20px;
+    font-family: auto ;
+    outline: none;
+}
+.regist-area .login button{
+    background-color: #FE4461;
+    margin:20px 0  0 0;
+    height: 54px;
+    width: 385px;
+    border-radius: 25px;   /*圆角边框*/
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+.regist-area .regist{
+    margin-top: 20px;
+    color: #8F98A1;
+}
+.bottom ul li {
+    list-style: none;
+    float: left;
+    margin: 20px  0 20px 50px;
+    color: #C7C3CC;
+}
+.bottom ul li:hover{
+    color: #FAA7BC;
+}
+.bottom .logo {
+    margin-top: 60px;
+    border-top: #BBBBCA 1px solid;
+    text-align: center
+}

@@ -1,0 +1,155 @@
+.menu-item i{
+    float: right;
+}
+
+.menu-item .my-list{
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.menu-item{
+   width: 100%;
+    overflow: hidden;
+    border-bottom: 0;
+}
+
+.my-menu {
+    background: white;
+    height: 100vh;
+    border: 1px solid #d4d4d5 ;
+    background: #D97C97;
+}
+body {
+    overflow: hidden;
+}
+.fields.inline .field{
+    display: inline-block;
+}
+.good {
+    padding: 1.2em;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.good .img-area{
+    position: relative;
+    height: 8em!important;
+}
+.good .img-area img {
+    width: 100%;
+    height: 100%;
+}
+.good .img-area .good-title {
+    padding: 1em;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    color: white;
+}
+
+.goods-detail {
+    line-height: 1.7em!important;
+}
+.goods-detail .sell-num {
+    font-size: 12px!important;
+    color: rgba(0,0,0,0.3);
+}
+.goods-detail .seller-name {
+    font-size: 14px!important;
+}
+
+.list-item p a {
+    color: white;
+}
+
+.goods-detail .good-spend {
+    display: inline-block;
+    line-height: 2.2em!important;
+    font-size: 1.1em!important;
+    vertical-align: middle;
+}
+.upload-img-area img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 10em;
+    height: 15em;
+    z-index: 1!important;
+
+}
+
+.upload-img-area {
+    display: inline-block;
+    width: 10em;
+    height: 15em;
+    background-size: cover;
+    position: relative;
+    margin-left: 3em;
+    overflow: hidden;
+}
+
+.top-area .head-icon {
+    display: inline-block;
+    border-radius: 100%;
+    height: 7em;
+    width: 7em;
+    background: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2094924099,3311708497&fm=26&gp=0.jpg") center 100%;
+    background-size: cover;
+    float: left;
+
+}
+.seller-detail .head-icon {
+    margin-top: 1em;
+    display: inline-block;
+    border-radius: 100%;
+    height: 7em;
+    width: 7em;
+    background: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2094924099,3311708497&fm=26&gp=0.jpg") center 100%;
+    background-size: cover;
+    float: right;
+}
+
+
+
+.top-area {
+    padding: 2em;
+    background: url("http://www.kuangstudy.com/assert/images/bg/1.jpg") no-repeat center 100%;
+    background-size: cover;
+}
+.top-area .tag-area {
+    display: inline-block;
+   float: left;
+    color: white;
+    margin-left: 2.5em;
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+
+
+.seller-detail .tag-area {
+    display: inline-block;
+    float: left;
+    color: black;
+    margin-left: 5em;
+    font-size: 1.5em;
+    line-height: 3em;
+}
+
+.tag-area span {
+    margin-left: 0.5em;
+}
+.tag-area span i.female {
+    color: pink;
+    font-size: 1.5em;
+}
+body {
+    background: rgba(0,0,0,0.05);
+}
+
+

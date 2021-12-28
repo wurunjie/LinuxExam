@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 80%;
+    margin: 0  auto;
+}
+
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header ul li {
+    list-style: none;
+    float: right;
+    padding-right: 15px;
+    color: #8F98A1;
+}
+.header ul li:hover{
+    color: #F7ACBC;
+}
+
+.header {
+    padding: 7px 0 7px 0;
+    border-bottom: lightgrey 2px solid;
+
+}
+.content_head {
+    padding: 20px 0 20px 0;
+    position: relative;
+}
+.content_head input{
+    display: inline-block;
+    vertical-align: middle;
+    width:500px;
+    height: 40px;
+    left: 25%;
+    top: 25px;
+    background-color:#F7F7F7;
+    border-radius: 5px;   /*圆角边框*/
+    outline: none ;
+    border: none;
+    position: absolute;
+}
+.content_head .logo-area{
+    float: right;
+    margin-left: 200px;
+    border: #545652 1px solid;
+}
+.title>img {
+      width: 100%;
+}
+.content{
+    position: relative;
+    width: 80%;
+    margin: 0  auto;
+}
+.left {
+    position: absolute;
+    margin-top: 50px;
+    width: 40%;
+    height: 600px;
+    display: inline-block;
+
+}
+.left>img {
+    width: 500px;
+    float: right;
+}
+.right {
+    width:58%;
+    float: right;
+    margin-top: 50px;
+    height: 700px;
+}
+.right .title {
+    width: 70%;
+    font-size: 2em;
+    margin-left: 10px;
+}
+.right .information {
+    background: #F6F6F6;
+    margin-top: 3em;
+    height: 300px;
+    width: 70%;
+    padding: 3em;
+
+
+}
+.right .information span{
+    margin: 100px 0 0 50px;
+    color: grey;
+    line-height: 2em;
+}
+.right .by {
+    font-size: 2em!important;
+    text-align: center!important;
+    color: white!important;
+    width: 250px!important;
+    height:70px!important;
+    background: red;
+    margin-top: 2em!important;
+    display: inline-block!important;
+    font-weight: 200!important;
+
+}
+.right .car {
+    font-size: 2em!important;
+    text-align: center!important;
+    color: black!important;
+    width: 250px!important;
+    height:70px!important;
+    background: red;
+    margin-top: 2em!important;
+    display: inline-block!important;
+    font-weight: 200!important;
+
+
+}
